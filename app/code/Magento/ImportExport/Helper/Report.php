@@ -55,7 +55,7 @@ class Report extends \Magento\Framework\App\Helper\AbstractHelper
     {
         $reportTime = $this->timeZone->date($time, $this->timeZone->getConfigTimezone());
         $timeDiff = $reportTime->diff($this->timeZone->date());
-        return $timeDiff->format('%H:%M:%S');
+        return $timeDiff->format('%H:%I:%S');
     }
 
     /**

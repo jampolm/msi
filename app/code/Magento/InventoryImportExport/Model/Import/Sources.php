@@ -36,6 +36,8 @@ class Sources extends AbstractEntity
      */
     protected $jsonHelper;
 
+    protected $logInHistory = true;
+
     /**
      * @var ValidatorInterface
      */
